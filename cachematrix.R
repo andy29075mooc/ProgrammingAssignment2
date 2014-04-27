@@ -2,11 +2,12 @@
 ## Purpose: This function creates a CacheMatrix object that can store/return
 ##          a matrix and its inverse
 ## input: a matrix object
-## output: list of 4 functions
-##          (1) set() - assigns new matrix
-##          (2) get() - returns stored matrix
-##          (3) setinv() - assigns new matrix inverse
-##          (4) getinv() - returns stored matrix inverse
+## output: list of 4 functions and associated data as CacheMatrix object
+##    (1) set() - assigns new matrix
+##    (2) get() - returns stored matrix
+##    (3) setinv() - assigns new matrix inverse
+##    (4) getinv() - returns stored matrix inverse
+
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
